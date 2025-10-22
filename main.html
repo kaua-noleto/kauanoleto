@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaua Noleto - Autor</title>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Meta tags de proteção -->
+    <meta name="copyright" content="Kaua Noleto">
+    <meta name="author" content="Kaua Noleto">
+    <meta name="robots" content="noimageindex, noarchive">
+</head>
+<body>
+    <!-- Aviso de Direitos Autorais -->
+    <div id="copyrightWarning" style="display: none; position: fixed; top: 0; left: 0; width: 100%; background: #ff4444; color: white; padding: 10px; text-align: center; z-index: 10000; font-weight: bold;">
+        ⚠️ AVISO: Este site é protegido por direitos autorais. A cópia não autorizada é proibida.
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-pen-nib"></i>
+                    <div>
+                        <div>Kaua Noleto</div>
+                        <div class="author-name">Autor</div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio"><i class="fas fa-home"></i> Início</a></li>
+                        <li><a href="#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+                        <li><a href="#livros"><i class="fas fa-book"></i> Meus Livros</a></li>
+                        <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Meu Mundo Literário</h1>
+                <p>Descubra minhas obras, inspirações e histórias que dão vida às páginas dos meus livros.</p>
+                <a href="#livros" class="btn">Conhecer Meus Livros</a>
+                <a href="#sobre" class="btn btn-outline">Sobre o Autor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Autor -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-content">
+                <div class="author-photo">
+                    <img src="image/image3.png" alt="Foto do Autor">
+                </div>
+                <div class="author-bio">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá, eu me chamo Kauã, tenho 16 anos e estou começando minha jornada na área da escrita. Tudo começou em 16/10/2025, quando decidi criar minha primeira obra. Comentei sobre ela com um amigo, que me ajudou a escolher o tema e outros detalhes. Assim nasceu <em>O Nosso Pequeno Infinito</em>. Desde então, tenho me dedicado a criar histórias que tocam o coração e despertam a imaginação dos leitores.</p>
+                    <p>Minha inspiração vem de muitos autores famosos, como Jane Austen, Nicholas Sparks, Aluísio Azevedo, entre outros. Meus textos geralmente exploram temas como paixão e drama. Acredito que a literatura tem o poder de transformar vidas e conectar pessoas através das histórias que compartilhamos.</p>
+                    <p>Quando não estou escrevendo, gosto de ouvir música, jogar e criar sites. Moro no Brasil, no estado do Pará, com meus pais.</p>
+
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="web.html"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kauazzxp"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-goodreads"></i></a>
+                        <a href="#"><i class="fab fa-amazon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meus Livros -->
+    <section class="books" id="livros">
+        <div class="container">
+            <h2 class="section-title">Meus Livros</h2>
+            <!-- Aviso de Direitos Autorais -->
+            <div style="background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 5px; margin-bottom: 20px; text-align: center;">
+                <i class="fas fa-copyright" style="color: #856404;"></i>
+                <strong>DIREITOS AUTORAIS:</strong> Todas as obras literárias apresentadas neste site são de propriedade exclusiva de Kaua Noleto. É expressamente proibida a reprodução, distribuição ou uso comercial sem autorização prévia por escrito.
+            </div>
+            <div class="books-grid" id="booksGrid">
+                <!-- Os livros serão inseridos aqui via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Notícias -->
+<!-- <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Blog & Notícias</h2>
+            <div class="blog-posts">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Imagem do post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">15 de Outubro, 2023</div>
+                        <h3 class="blog-title">O Processo de Escrita do Meu Último Livro</h3>
+                        <p class="blog-excerpt">Compartilho um pouco sobre a jornada de criação do meu mais recente trabalho, desde a ideia inicial até a publicação.</p>
+                        <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Imagem do post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">2 de Setembro, 2023</div>
+                        <h3 class="blog-title">Participação na Feira do Livro 2023</h3>
+                        <p class="blog-excerpt">Relato da minha experiência na maior feira literária do país e o encontro com leitores incríveis.</p>
+                        <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Imagem do post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">20 de Agosto, 2023</div>
+                        <h3 class="blog-title">Inspirações Literárias: Autores que Admiro</h3>
+                        <p class="blog-excerpt">Uma reflexão sobre os escritores que influenciaram meu trabalho e como suas obras moldaram minha voz literária.</p>
+                        <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contato -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos Conversar</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>kauanoleto1@gmail.com</div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>(91) 982619273</div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>Pará</div>
+                        </div>
+                    </div>
+                    <p>Ficarei feliz em responder perguntas sobre meus livros, eventos ou possíveis parcerias. Não hesite em entrar em contato!</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Kaua Noleto - Autor</div>
+                <div class="footer-links">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#livros">Livros</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 Kaua Noleto. Todos os direitos reservados.<br>
+                    <small style="opacity: 0.8;">
+                        Este site e todo seu conteúdo são protegidos por leis de direitos autorais. 
+                        A reprodução não autorizada é proibida.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para detalhes do livro -->
+    <div class="modal" id="bookModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal"><i class="fas fa-times"></i></button>
+            <div id="modalContent">
+                <!-- Conteúdo do modal será inserido via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Proteção contra cópia -->
+    <script>
+        // Proteção básica contra cópia
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mostrar aviso ao tentar copiar
+            document.addEventListener('copy', function(e) {
+                const warning = document.getElementById('copyrightWarning');
+                warning.style.display = 'block';
+                setTimeout(() => {
+                    warning.style.display = 'none';
+                }, 3000);
+                
+                // Adicionar aviso ao conteúdo copiado
+                const selectedText = window.getSelection().toString();
+                if (selectedText.length > 50) {
+                    e.clipboardData.setData('text/plain', 
+                        selectedText + '\n\n---\nFonte: Site oficial de Kaua Noleto - Autor\n© 2025 Kaua Noleto. Todos os direitos reservados.\nReprodução proibida sem autorização.\n---'
+                    );
+                    e.preventDefault();
+                }
+            });
+
+            // Proteger contra clique direito
+            document.addEventListener('contextmenu', function(e) {
+                const warning = document.getElementById('copyrightWarning');
+                warning.style.display = 'block';
+                setTimeout(() => {
+                    warning.style.display = 'none';
+                }, 3000);
+                e.preventDefault();
+            });
+
+            // Proteger imagens
+            document.querySelectorAll('img').forEach(img => {
+                img.addEventListener('dragstart', function(e) {
+                    e.preventDefault();
+                });
+            });
+
+            // Aviso no console
+            console.log('%c⚠️ AVISO DE DIREITOS AUTORAIS', 'color: red; font-size: 20px; font-weight: bold;');
+            console.log('%cEste site e seu código são propriedade de Kaua Noleto.', 'color: orange; font-size: 14px;');
+            console.log('%cA cópia, reprodução ou uso não autorizado é estritamente proibido.', 'color: orange; font-size: 14px;');
+            console.log('%c© 2025 Kaua Noleto. Todos os direitos reservados.', 'color: orange; font-size: 14px;');
+
+            // Adicionar marca d'água invisível nos textos importantes
+            const importantTexts = document.querySelectorAll('p, h1, h2, h3, .author-bio, .book-description');
+            importantTexts.forEach(element => {
+                element.setAttribute('data-author', 'Kaua-Noleto');
+                element.setAttribute('data-copyright', '2025');
+            });
+        });
+
+        // Proteção adicional
+        window.addEventListener('load', function() {
+            // Verificar se o domínio é o correto (opcional)
+            const allowedDomains = ['kauanoleto.com', 'localhost', '127.0.0.1'];
+            const currentDomain = window.location.hostname;
+            
+            if (!allowedDomains.some(domain => currentDomain.includes(domain))) {
+                console.warn('Acesso em domínio não autorizado detectado.');
+            }
+
+            // Adicionar assinatura digital no HTML
+            const signature = document.createElement('div');
+            signature.style.display = 'none';
+            signature.innerHTML = '<!-- Site desenvolvido por Kaua Noleto - © 2025 - Todos os direitos reservados -->';
+            document.body.appendChild(signature);
+        });
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noleto Books</title>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<div class="bg-video" aria-hidden="true"></div>
+    <!-- Use a short video so we can detect 'ended'. Troque 'book-32.mp4' e 'outra-pagina.html' conforme necessário -->
+    <video id="bookAnim" autoplay muted playsinline>
+        <source src="image/book-32.mp4" type="video/mp4">
+        <!-- Fallback para browsers sem suporte a video: mostra o GIF (não detecta fim) -->
+        <img src="image/book-32.gif" alt="">
+    </video>
+</div>
+  <script src="index.js"></script>
+</body>
+</html>

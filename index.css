@@ -1,0 +1,36 @@
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    /* evita barras de rolagem e garante que o vídeo cubra toda a tela */
+    body { overflow: hidden; }
+
+    /* container (mantido se quiser usar) */
+    .bg-video {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    /* força o vídeo a ocupar toda a viewport e cobrir mantendo proporção */
+    #bookAnim {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+        pointer-events: none;
+        display: block;
+    }
+
+    /* fallback image, caso usado */
+    #bookAnim img,
+    .bg-video img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
