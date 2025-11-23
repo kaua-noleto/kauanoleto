@@ -1,6 +1,6 @@
 // Variáveis para controlar os efeitos festivos (modifique aqui manualmente)
-let halloweenMode = true; // Mude para true para ativar os efeitos de Halloween
-let christmasMode = false; // Mude para true para ativar os efeitos de Natal
+let halloweenMode = false; // Mude para true para ativar os efeitos de Halloween
+let christmasMode = true; // Mude para true para ativar os efeitos de Natal
 let pascoaMode = false; // Mude para true para ativar os efeitos de Páscoa
 
 // Dados dos livros
@@ -1181,4 +1181,5 @@ festiveStyles.textContent = `
         background: linear-gradient(rgba(156, 39, 176, 0.7), rgba(76, 175, 80, 0.7)), url('image/image5.png');
     }
 `;
+
 document.head.appendChild(festiveStyles);
